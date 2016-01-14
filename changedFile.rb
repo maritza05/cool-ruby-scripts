@@ -52,10 +52,7 @@ def check_for_same_hash(new_hash, old_hash)
 	end
 end
 
-
-
-
-
+# <------- without methods ------------------------->
 root = ARGV[0]
 oldfile_hash = Hash.new 
 newfile_hash = Hash.new 
